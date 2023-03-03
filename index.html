@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./style.css" rel="stylesheet">
+    <title>submission form</title>
+</head>
+<body>
+    <div class="login-box">
+         <h2>pour le prof antenne</h2>
+        <form action="https://sheetdb.io/api/v1/uhncu5otjy366" method="post" id="sheetdb-form">
+            <div class="user-box">
+                <input type="text" name="data[nom]" required="" id="nom">
+                <label for="nom"><b>nom</b></label>
+                <input type="text" name="data[prenom]" required="" id="prenom">
+                <label for="prenom"><b>prenom</b></label>
+                <input type="text" name="data[matrecule]" required="" id="matrecule">
+                <label for="matrecule"><b>matrecule</b></label>
+                <input type="text" name="data[email-usthb]" required="" id="email-usthb">
+                <label for="email-usthb"><b>email-usthb (prenom.nom@etu.usthb.dz)</b></label>
+            </div>
+
+            <div class="button-form">
+                <button id="submit" type="submit">register</button>
+                <div id="register">
+                    <p>submitted successfully</p>
+                </div>
+              
+            </div>
+        </form> 
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
