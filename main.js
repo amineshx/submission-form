@@ -8,6 +8,6 @@ form.addEventListener("submit",e =>{
         Response => Response.json()
     ).then((html)=>{
         register.style.display = 'block';
-        window.location.reload();
+        window.location.reload(3000);
     });
 });
